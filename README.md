@@ -1,1 +1,1 @@
-Pascal triangle interview project
+This is a repository for alx interview projects

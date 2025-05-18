@@ -18,6 +18,7 @@ def validUTF8(data):
     for byte in data:
         if byte_count == 0:
             if (byte >> 7) == 0b0:
+                # Single byte character, no need for further checks
                 continue
             elif (byte >> 5) == 0b110:
                 byte_count = 1

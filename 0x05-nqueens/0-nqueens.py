@@ -8,7 +8,7 @@ import sys
 solutions = []
 n = 0
 
-# pos value to store all possible positions on the chessboard
+# pos value to store all the possible positions on the chessboard
 pos = None
 
 
